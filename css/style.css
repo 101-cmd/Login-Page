@@ -117,3 +117,15 @@ body {
 .register-link p a:hover {
   text-decoration: underline;
 }
+
+input:focus {
+    border-color: blue;
+}
+
+input:valid {
+    border-color: green;
+}
+
+input:invalid:not(:placeholder-shown) {
+    border-color: red;
+}
